@@ -33,7 +33,8 @@ export class CalculatorComponentComponent implements OnInit {
     this.output = result
     return;
   }
-
+  
+  /*
   arrayRemove(arr:any) {  
     return arr.filter(function(){ 
         return arr.splice(-1);
@@ -46,6 +47,8 @@ export class CalculatorComponentComponent implements OnInit {
     console.log(ele)
     this.input = ele.toString()
   }
+  
+ */
   constructor() { }
 
   ngOnInit(): void {
